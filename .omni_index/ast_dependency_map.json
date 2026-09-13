@@ -1,0 +1,244 @@
+[
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "setup.py",
+    "dependencies": [
+      "setuptools",
+      "setup"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "SECURITY.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CODE_OF_CONDUCT.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/network_monitor.py",
+    "dependencies": [
+      "dataclasses",
+      "typing",
+      "time",
+      "collections",
+      "Dict",
+      "dataclass",
+      "deque"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/disk_monitor.py",
+    "dependencies": [
+      "dataclasses",
+      "typing",
+      "os",
+      "time",
+      "collections",
+      "Dict",
+      "deque",
+      "shutil",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/rich_ui.py",
+    "dependencies": [
+      "Layout",
+      "Panel",
+      "AppConfig",
+      "rich.text",
+      "sys",
+      "Text",
+      "rich.console",
+      "config",
+      "os",
+      "rich.table",
+      "collections",
+      "deque",
+      "rich.layout",
+      "Style",
+      "rich.style",
+      "Console",
+      "rich.panel",
+      "typing",
+      "Any",
+      "Table"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/main.py",
+    "dependencies": [
+      "argparse",
+      "RichUI",
+      "termios",
+      "AppConfig",
+      "rich_ui",
+      "__version__",
+      "rich.live",
+      "system_monitor",
+      "disk_monitor",
+      "sys",
+      "DiskMonitor",
+      "NetworkMonitor",
+      "rich.console",
+      "tty",
+      "dgxtop",
+      "config",
+      "os",
+      "SystemMonitor",
+      "Live",
+      "traceback",
+      "Console",
+      "signal",
+      "logger",
+      "time",
+      "network_monitor",
+      "GPUMonitor",
+      "get_logger",
+      "gpu_monitor",
+      "select"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/system_monitor.py",
+    "dependencies": [
+      "dataclasses",
+      "typing",
+      "os",
+      "time",
+      "Dict",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/config.py",
+    "dependencies": [
+      "Dict",
+      "dataclasses",
+      "typing",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dgxtop/gpu_monitor.py",
+    "dependencies": [
+      "dataclasses",
+      "subprocess",
+      "typing",
+      "Optional",
+      "sys",
+      "dataclass"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "dgxtop/logger.py",
+    "dependencies": [
+      "psutil",
+      "traceback",
+      "datetime",
+      "platform",
+      "typing",
+      "glob",
+      "os",
+      "Optional",
+      "time",
+      "threading",
+      "sys",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "debian/changelog",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "debian/rules",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "debian/control",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "debian/copyright",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "debian/source/format",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
